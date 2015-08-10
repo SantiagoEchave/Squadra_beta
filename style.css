@@ -1,5 +1,236 @@
-img {
-    object-fit: fill;
+
+.logo_header {
+    width: auto;
+    z-index: 1;
+}
+.swiper-container {
     width: 100%;
-    height: 800px;
+    height: 100%;
+}
+.swiper-slide img {
+    max-width: none;
+    width: 100%;
+}
+.logo_identidad {
+    position: absolute;
+    width: 50%;
+    top:25%;
+    left: 25%;
+    z-index: 2;
+}
+.front_slider {
+    background-color: rgba(51, 51, 51, 0.3);
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    z-index: 3;
+    padding: 3% 0;
+}
+.sl_fondo {
+    position: absolute;
+    top: 5%;
+    width: 25%;
+    left: 37%;
+    z-index: -1;
+}
+/*Nav*/
+a { 
+    color: #333;
+    font-size: 100%;
+    text-align: center;
+    line-height: 5.5;
+    padding: 0 15px;
+}
+li {
+    list-style:none;
+    text-decoration: none;
+    float: left;
+    font-family: 'avenirbold';
+}
+/*Seccion Text*/
+h1 {
+    font-family: 'avenirboldcn';
+    font-size: 40px;
+    text-align: center;
+}
+h3 {
+    font: normal 150% 'avenirboldcn', sans-serif;
+    text-align: center;
+}
+h4 {
+    font: normal 130% 'avenirboldcn', sans-serif;
+    text-align: center;
+}
+h5 {
+     font: normal 150% 'latoregular', sans-serif;
+    text-align: center;
+}
+h6 {
+    font: normal 170% 'latoregular', sans-serif;
+    text-align: center;
+}
+/*Columnas*/
+.section_1 {
+    padding: 5% 0;
+}
+.icono_cont {
+    margin: 5% 0 0 0;
+}
+.iconos {
+    width: 50%;
+    margin: 0 25%;
+}
+p .squadra {
+    font: normal medium/1 'latoregular', sans-serif;
+    text-align: justify;
+}
+.squadra {
+    padding: 7%;
+    text-align: justify;
+}
+.line {
+    width: 20%;
+    margin: 0 auto;
+    background-color: #333;
+    height: 1px;
+}
+/*Slider Seccion*/
+.swiper-container h6{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 3;
+}
+.swiper-container h1{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 0;
+}
+.swiper-container h3{
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 5;
+}
+.section_2 {
+    padding: 5% 0;   
+}
+.line_sec_2 {
+    width: 30%;
+    margin: 0% auto!important;
+    background-color: #333;
+    height: 1px;
+}
+.line_2_sec_2 {
+    width: 5%;
+    margin: 0 auto;
+    background-color: #333;
+    height: 1px;
+    margin-top: 5%;
+}
+.icono_cont h4 {
+    margin: 20% auto !important;
+}
+.h1_lato {
+    font-family: 'avenirbold';
+}
+
+.front_prisma_left {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    z-index: 3;
+    padding: 0 1%;
+}
+.front_prisma_right {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    z-index: 3;
+    padding: 2% 2%;
+    text-align: justify;
+}
+.line_contactanos {
+    width: 60%;
+    margin: 0% auto!important;
+    background-color: #333;
+    height: 1px;
+    float: left;
+}
+
+.h1_lato_left {
+    margin-top: 10%;
+    text-align: left;
+    font-family: 'avenirbold';
+}
+
+.elipce {
+    width: 50%;
+    margin-left: 10%;
+    margin-bottom: 30%;
+}
+
+.contacto {
+    text-align: left;
+}
+div .contacto_footer {
+    background-image:url(assets/contact.png);
+    max-width: 100%;
+    background-size: cover;
+    max-height: 100%;
+    padding: 10%;
+}
+.field-sm {
+    float: left;
+    width: 48%;
+    margin: 0 2% 0 0;
+}
+.field-lg {
+    width: 98%;
+}
+.send {
+    border: 2px solid #ffffff;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 1% 4%;
+    font-family: 'latoregular';
+    float: right;
+    margin: 4% 2% 0 0;
+}
+label {
+    color: #ffffff;
+    font-family: 'latoregular';
+    letter-spacing: .5;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 2%;
+}
+input {
+    width: 100%;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    color: #dbefb4;
+    font-family: 'latoregular';
+}
+textarea {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ffffff;
+    height: 100px;
+    color: #dbefb4;
+}
+.field-lg textarea {
+    width: 100%;
+}
+form {
+     background-color: rgba(0, 0, 0, 0.5);   
+    padding: 2%;
 }
