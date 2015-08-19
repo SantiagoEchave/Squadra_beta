@@ -1,7 +1,14 @@
 
 .logo_header {
-    width: auto;
+    width: 60%;
     z-index: 1;
+    margin-top: 5%;
+}
+header{
+    background: #22282e;
+    height:60px;
+    position: relative;
+    width: 100%;
 }
 .swiper-container {
     width: 100%;
@@ -14,33 +21,43 @@
 .logo_identidad {
     position: absolute;
     width: 50%;
-    top:25%;
+    top:40%;
     left: 25%;
     z-index: 2;
 }
 .front_slider {
-    background-color: rgba(51, 51, 51, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     position: absolute;
     text-align: center;
-    top: 25%;
+    top: 12%;
     z-index: 3;
     padding: 3% 0;
 }
 .sl_fondo {
     position: absolute;
-    top: 5%;
+    top: 15%;
     width: 25%;
     left: 37%;
     z-index: -1;
 }
+img.sl_fondo  {
+    opacity: 0.8;
+}
 /*Nav*/
-a { 
+nav a { 
     color: #333;
     font-size: 100%;
     text-align: center;
     line-height: 5.5;
-    padding: 0 15px;
+    padding: 0 10px;
+}
+a { 
+    color: #333;
+    font-size: 100%;
+    text-align: center;
+    line-height: 3;
+    padding: 0 10px;
 }
 li {
     list-style:none;
@@ -53,6 +70,7 @@ h1 {
     font-family: 'avenirboldcn';
     font-size: 40px;
     text-align: center;
+    letter-spacing: 3px;
 }
 h3 {
     font: normal 150% 'avenirboldcn', sans-serif;
@@ -61,14 +79,16 @@ h3 {
 h4 {
     font: normal 130% 'avenirboldcn', sans-serif;
     text-align: center;
+    letter-spacing: 3px;
 }
 h5 {
-     font: normal 150% 'latoregular', sans-serif;
+    font: normal 150% 'latoregular', sans-serif;
     text-align: center;
 }
 h6 {
     font: normal 170% 'latoregular', sans-serif;
     text-align: center;
+    letter-spacing: 3px;
 }
 /*Columnas*/
 .section_1 {
@@ -83,11 +103,11 @@ h6 {
 }
 p .squadra {
     font: normal medium/1 'latoregular', sans-serif;
-    text-align: justify;
+    text-align: inherit;
 }
 .squadra {
     padding: 7%;
-    text-align: justify;
+    text-align: center;
 }
 .line {
     width: 20%;
@@ -97,25 +117,27 @@ p .squadra {
 }
 /*Slider Seccion*/
 .swiper-container h6{
-    color: white;
+    color: #333;
     width: 80%;
     margin: 0 auto;
-    line-height: 3;
+    line-height: 2;
 }
 .swiper-container h1{
-    color: white;
+    color: #333;
     width: 80%;
     margin: 0 auto;
     line-height: 0;
+    letter-spacing: 3px;
 }
 .swiper-container h3{
-    color: white;
+    color: #333;
     width: 100%;
     margin: 0 auto;
     line-height: 5;
+    letter-spacing: 3px;
 }
 .section_2 {
-    padding: 5% 0;   
+    padding: 0% 0;   
 }
 .line_sec_2 {
     width: 30%;
@@ -142,7 +164,7 @@ p .squadra {
     border-radius: 0px;
     position: absolute;
     text-align: center;
-    top: 25%;
+    top: 10%;
     z-index: 3;
     padding: 0 1%;
 }
@@ -151,7 +173,7 @@ p .squadra {
     border-radius: 0px;
     position: absolute;
     text-align: center;
-    top: 60%;
+    top: 50%;
     z-index: 3;
     padding: 2% 2%;
     text-align: justify;
@@ -165,7 +187,7 @@ p .squadra {
 }
 
 .h1_lato_left {
-    margin-top: 10%;
+    margin-top: 0%;
     text-align: left;
     font-family: 'avenirbold';
 }
@@ -174,6 +196,7 @@ p .squadra {
     width: 50%;
     margin-left: 10%;
     margin-bottom: 30%;
+    margin-top: 10%;
 }
 
 .contacto {
@@ -195,19 +218,21 @@ div .contacto_footer {
     width: 98%;
 }
 .send {
-    border: 2px solid #ffffff;
-    color: rgb(255, 255, 255);
+    border: 0px solid #333;
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 14px;
     padding: 1% 4%;
     font-family: 'latoregular';
     float: right;
     margin: 4% 2% 0 0;
+    background-color: rgba(222, 222, 222, 0.5);
+
 }
 label {
-    color: #ffffff;
+    color: #333;
     font-family: 'latoregular';
-    letter-spacing: .5;
+    letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 12px;
@@ -217,13 +242,14 @@ input {
     width: 100%;
     background: none;
     border: 0;
-    border-bottom: 1px solid #ffffff;
-    color: #dbefb4;
+    border-bottom: 1px solid #333;
+    color: #333;
     font-family: 'latoregular';
+    letter-spacing: 3px;
 }
 textarea {
-    background: rgba(255, 255, 255, 0.5);
-    border: 1px solid #ffffff;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #333;
     height: 100px;
     color: #dbefb4;
 }
@@ -231,6 +257,138 @@ textarea {
     width: 100%;
 }
 form {
-     background-color: rgba(0, 0, 0, 0.5);   
+    background-color: rgba(255, 255, 255, 0.5);   
     padding: 2%;
+}
+/*HideSlide*/
+
+#slide_2 {
+    display: none;
+}
+#slide_3 {
+    display:none;
+}
+#slide_4 {
+    display:none;
+}
+.footer {
+    background-color: #f0f0f0;
+    padding: 2% 0;
+}
+text {
+    font-size: 70%;   
+}
+
+/*Mobile*/
+#nav-mobile{
+    display: none;
+    background: url(nav.png) no-repeat center center;
+    float: right;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top:0;
+    opacity: .6;
+}
+#nav-mobile.nav-active{
+    opacity: 1;
+}
+nav a:hover,
+a:focus {
+  color: #fb4f14;
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+   
+}
+
+/*Responsive*/
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+
+    /* mostramos #nav-mobile */
+    #nav-mobile{ display: block; }
+
+    /* Fijamos nuestro nav en 100% ancho y dejamos de flotarlo */
+    #menu{
+        width: 100%;
+        float: none;
+        padding-top: 60px;
+    }
+
+    /* Convertimos nuestra lista de enlaces en un menú horizontal */
+    #menu ul{
+        box-shadow: 0 1px 2px rgba(0,0,0,.5);
+        max-height: 0;
+        overflow: hidden;
+    }
+    /* estilos para los LI del menu */
+    #menu li{
+        background: #33363b;
+        border-bottom: 1px solid #282b30;
+        float: none;
+    }
+    /* Quitamos el borde del ultimo item del menú */
+    #menu li:last-child{ border-bottom: 0;}
+
+    #menu li a{
+        padding: 15px 0;
+        height: auto;
+        line-height: normal;
+    }
+    #menu li a:hover{background:#2a2d33}
+
+    /* Agregamos una animación al despligue del menú */
+    #menu ul.open-menu{
+        max-height: 400px;
+        transition: max-height .4s;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+
+}
+
+.space_line {
+    left: 20%;
+    margin: 1% 0 0 0;
+    width: 40%;
+    background-color: #333;
+    height: 1px;
+}
+
+#slide_5 {
+    display: none;
+}
+
+#nosotros {
+    position: absolute;
+    top: 70%;
+}
+
+#producto {
+    position: absolute;
+    top: 247%;
+}
+
+#contacto {
+    position: absolute;
+    top: 360%;
 }
