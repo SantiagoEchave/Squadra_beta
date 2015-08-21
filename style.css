@@ -165,7 +165,7 @@ p .squadra {
     position: absolute;
     text-align: center;
     top: 10%;
-    z-index: 3;
+    z-index: 100;
     padding: 0 1%;
 }
 .front_prisma_right {
@@ -303,7 +303,7 @@ a:focus {
   border-bottom: 1px solid #333;
    
 }
-
+.carousel-indicators li {float: none;}
 /*Responsive*/
 
 /*==========  Non-Mobile First Method  ==========*/
