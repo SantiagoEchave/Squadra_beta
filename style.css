@@ -279,7 +279,8 @@ form {
 text {
     font-size: 70%;   
 }
-
+.titles h5 {cursor: pointer;
+    line-height: 3;}
 /*Mobile*/
 #nav-mobile{
     display: none;
