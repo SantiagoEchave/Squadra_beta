@@ -3,6 +3,7 @@
     width: 60%;
     z-index: 1;
     margin-top: 5%;
+/*    background-color: rgba(255, 255, 255, 0.5);*/
 }
 header{
     background: #22282e;
@@ -26,7 +27,7 @@ header{
     z-index: 2;
 }
 .front_slider {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
     position: absolute;
     text-align: center;
@@ -38,7 +39,7 @@ header{
     position: absolute;
     top: 15%;
     width: 25%;
-    left: 37%;
+    left: 37.5%;
     z-index: -1;
 }
 img.sl_fondo  {
@@ -72,12 +73,15 @@ h1 {
     text-align: center;
     letter-spacing: 3px;
 }
+h2 {
+    font-family: 'latoregular';
+}
 h3 {
-    font: normal 150% 'avenirboldcn', sans-serif;
+    font: normal 200% 'avenirboldcn', sans-serif;
     text-align: center;
 }
 h4 {
-    font: normal 130% 'avenirboldcn', sans-serif;
+    font: normal 180% 'avenirboldcn', sans-serif;
     text-align: center;
     letter-spacing: 3px;
 }
@@ -89,6 +93,7 @@ h6 {
     font: normal 170% 'latoregular', sans-serif;
     text-align: center;
     letter-spacing: 3px;
+    font-family: latoregular;
 }
 /*Columnas*/
 .section_1 {
@@ -101,8 +106,11 @@ h6 {
     width: 50%;
     margin: 0 25%;
 }
+p {
+    font-family: 'latoregular';   
+}
 p .squadra {
-    font: normal medium/1 'latoregular', sans-serif;
+    font: normal medium/1 'latoregular';
     text-align: inherit;
 }
 .squadra {
@@ -135,9 +143,10 @@ p .squadra {
     margin: 0 auto;
     line-height: 5;
     letter-spacing: 3px;
+    height: 110px;
 }
 .section_2 {
-    padding: 0% 0;   
+    padding: 5% 0 0 0;   
 }
 .line_sec_2 {
     width: 30%;
@@ -160,7 +169,7 @@ p .squadra {
 }
 
 .front_prisma_left {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 0px;
     position: absolute;
     text-align: center;
@@ -169,7 +178,7 @@ p .squadra {
     padding: 0 1%;
 }
 .front_prisma_right {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 0px;
     position: absolute;
     text-align: center;
@@ -195,8 +204,8 @@ p .squadra {
 .elipce {
     width: 50%;
     margin-left: 10%;
-    margin-bottom: 30%;
-    margin-top: 10%;
+    margin-bottom: 20%;
+/*    margin-top: 10%;*/
 }
 
 .contacto {
@@ -251,7 +260,7 @@ textarea {
     background: rgba(255, 255, 255, 0.7);
     border: 1px solid #333;
     height: 100px;
-    color: #dbefb4;
+    color: #333;
 }
 .field-lg textarea {
     width: 100%;
@@ -272,15 +281,18 @@ form {
     display:none;
 }
 .footer {
-    background-color: #f0f0f0;
-    padding: 2% 0;
+    background-image: url(img_assets/footer.png);
+    background-size: cover;
+    padding: 5% 0;
 }
 
 text {
-    font-size: 70%;   
+    font-size: 80%;   
 }
 .titles h5 {cursor: pointer;
-    line-height: 3;}
+    line-height: 2;
+    margin-top: 50%;
+}
 /*Mobile*/
 #nav-mobile{
     display: none;
@@ -297,11 +309,14 @@ text {
     opacity: 1;
 }
 nav a:hover,
-a:focus {
-  color: #fb4f14;
-  text-decoration: none;
-  border-bottom: 1px solid #333;
-   
+.logo_header a  img  {
+    border-bottom: 0px !importan;
+}
+li a:focus {
+    color: #fb4f14;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+
 }
 .carousel-indicators li {float: none;}
 /*Responsive*/
@@ -310,6 +325,7 @@ a:focus {
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
+    
 
 }
 /* Medium Devices, Desktops */
@@ -356,6 +372,7 @@ a:focus {
         max-height: 400px;
         transition: max-height .4s;
     }
+    
 }
 
 /* Extra Small Devices, Phones */
@@ -380,17 +397,69 @@ a:focus {
     display: none;
 }
 
+/*
 #nosotros {
     position: absolute;
     top: 70%;
 }
+*/
 
+/*
 #producto {
     position: absolute;
     top: 247%;
 }
+*/
 
+/*
 #contacto {
     position: absolute;
     top: 360%;
 }
+*/
+.titles:hover {
+    color:#fb4f14;
+}
+.line_qs {
+    position: relative;
+    width: 5%;
+    margin: 0 auto;
+    background-color: #333;
+    height: 1px;
+    margin-top: 5%;
+    top: -50px;
+}
+
+.footer_contact {
+    height: 10%;
+    padding-top: 2.3%;
+}
+footer div ul li {
+    float: none;
+}
+
+#slide_1 {
+    
+}
+
+
+
+.foot {
+    padding: 1%;
+    background-color: #f4f4f4;
+    display: flex;
+}
+
+
+
+
+/*
+.carousel .item {
+    min-height: 500px;  
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 500px;
+}*/
